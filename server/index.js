@@ -18,7 +18,7 @@ app.use(cookieParser())
 
 const PORT = process.env.PORT || 8080
 var MONGODB_URI = process.env.MONGODB_URI;
-MONGODB_URI = MONGODB_URI.replace('{passwrad}',encodeURIComponent("<kjm1216!?>"))
+MONGODB_URI = MONGODB_URI.replace('{password}',encodeURIComponent("kiiim1216"))
 console.log(`MONGODB_URI:${MONGODB_URI}`);
 
 app.use('/api', router)

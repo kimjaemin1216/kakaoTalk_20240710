@@ -1,8 +1,8 @@
 import express from 'express'
-import registerUser from '../controller.register'
+import registerUser from '../controller/registerUser.js'
 
 const router = express.Router()
 
-router.post('/register', 함수)
+router.post('/register', registerUser)
 
 export default router
